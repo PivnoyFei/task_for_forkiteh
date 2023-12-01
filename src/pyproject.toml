@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["Ilya Smelov  <97305813+PivnoyFei@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.104.1"
+httpx = "^0.25.2"
+pydantic = "^2.5.2"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+uvicorn = "^0.24.0.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
